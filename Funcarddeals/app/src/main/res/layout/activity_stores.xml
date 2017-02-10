@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include layout="@layout/header" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="#D2D0D2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"
+            android:background="@drawable/greenwitharrow"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/cat_text_paddingbottom">
+
+            <TextView
+                android:id="@+id/textView26"
+                style="@style/main_page"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="@string/category_left_title" />
+
+            <TextView
+                android:id="@+id/textView27"
+                style="@style/main_page"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/category_right_title" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/storesList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.2" />
+
+        <LinearLayout
+            android:id="@+id/particular_cat_layout_error"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.2"
+            android:background="@drawable/reload_button"
+            android:gravity="center"
+            android:onClick="reload"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_refresh" />
+
+            <TextView
+                android:id="@+id/particular_cat_error"
+                style="@style/general_light_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/network_error_for_list" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ads"
+            style="@style/general_light_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="openAdsStore"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include layout="@layout/footer" />
+    </LinearLayout>
+
+</LinearLayout>

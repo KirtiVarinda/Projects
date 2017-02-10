@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remind Me</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="reminder_text">Remind To Do</string>
+    <string name="event_text">Add an Event</string>
+    <string name="title_activity_add_event">AddEvent</string>
+    <string name="title_activity_reminder_to_do">ReminderToDo</string>
+    <string name="title_activity_wake_up">WakeUp</string>
+    <string name="wakeup1">Remind me to Wake Up</string>
+    <string name="wakeup2">Sets an alarm for you to wake up</string>
+    <string name="title_activity_text_message">TextMessage</string>
+    <string name="title_activity_email_reminder">EmailReminder</string>
+    <string name="title_activity_call_reminder">CallReminder</string>
+    <string name="title_activity_reminder_message">ReminderMessage</string>
+    <string name="title_activity_select_contact">SelectContact</string>
+    <string name="title_activity_select_time">SelectTime</string>
+    <string name="title_activity_show_alarm">ShowAlarm</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="appName">SwipeListView Demo</string>
+    <string name="open">Edit</string>
+    <string name="googlePlay">Done</string>
+    <string name="uninstall">Delete</string>
+    <string name="cantOpen">Can\'t open this application</string>
+    <string name="settings">Settings</string>
+    <string name="mode">Swipe Mode</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="both">Both</string>
+    <string name="leftAction">Left Action</string>
+    <string name="reveal">Reveal</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="choice">Choice</string>
+    <string name="rightAction">Right Action</string>
+    <string name="rightOffset">Right Offset (%1$s dp)</string>
+    <string name="leftOffset">Left Offset (%1$s dp)</string>
+    <string name="dp">dp</string>
+    <string name="animationTime">Animation Time (Default: 0)</string>
+    <string name="milliseconds">Milliseconds</string>
+    <string name="openOnLongPress">Open On Long Press</string>
+    <string name="about">About</string>
+    <string name="aboutMessage">This is just a simple demo for the Open Source SwipeListView Android Library by 47 Degrees. Find all source, documentation and packaged downloads at GitHub. Cheers!</string>
+    <string name="ok">OK</string>
+    <string name="visit47">Visit 47deg</string>
+    <string name="goToGitHub">Go to GitHub</string>
+    <string name="dontShow">Don\'t show this message again</string>
+    <string name="others">Others</string>
+    <string name="loading">Loading</string>
+    <string name="newTag">New!</string>
+    <string name="discard">Discard</string>
+    <string name="title_activity_boot_receive">BootReceiveActivity</string>
+    <string name="title_activity_theme">Theme</string>
+    <string name="theme1">Purple</string>
+    <string name="theme2">Red</string>
+    <string name="theme3">Yellow</string>
+    <string name="theme4">Green</string>
+    <string name="title_activity_dummy">Dummy</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_catch_missed_call">CatchMissedCall</string>
+    <string name="catch_call_call_contact">Call Contact</string>
+    <string name="catch_call_add_contact">Add Reminder</string>
+    <string name="title_activity_general">GeneralActivity</string>
+
+    <!--  Privacy policy text -->
+    <string name="policy_title">Privacy Permission:</string>
+    <string name="policy_message">Hi, We are working on an experimental feature to give you automatic birthday reminders for your friends &amp; family. For which our servers for RemindMe application need access to your contact list. This way you will be automatically reminded of your friend\'s birthdays, anniversaries or important events. Please select your permission option below:</string>
+
+    <!--    <string name="user_data">http://matricore.com/polls/saveContactInfo.php</string>-->
+    <string name="user_data">http://matricore.com/remindMe/saveContactInfo.php</string>
+    <string name="privacy_policy_link">http://remind-me.pw/#color_f1</string>
+
+    <!-- hourly page  -->
+    <string name="title_activity_hourly_reminders">HourlyReminders</string>
+    <string name="hourlypage_summarizeText">Everyday at 06:35 am for</string>
+    <string name="medicine">Medicine</string>
+    <string name="workout">Workout</string>
+    <string name="routine">Routine</string>
+    <string name="text_for">For:</string>
+    <string name="text_at">At:</string>
+    <string name="text_on">On:</string>
+
+    <string name="medicine_name">Medicine Name</string>
+    <string name="medicine_time">Reminder Times</string>
+    <string name="medicine_schedule">Schedule</string>
+    <string name="title_activity_hourly_reminder_times">HourlyReminderTimes</string>
+
+
+    <!-- calender event page -->
+    <string name="weekly">Weekly</string>
+    <string name="start_on">Starts on:</string>
+    <string name="title_activity_select_week_day">SelectWeekDay</string>
+
+
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+
+
+
+
+    <!--   catch missed call.      -->
+    <string name="missed_call">You have a missed call.</string>
+    <string name="sms_received">New Message Received.</string>
+</resources>

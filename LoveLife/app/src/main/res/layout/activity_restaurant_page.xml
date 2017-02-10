@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/love">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D1000000"
+        android:fitsSystemWindows="true"
+        android:paddingBottom="@dimen/restaurant_list_margin"
+        android:paddingLeft="@dimen/restaurant_list_margin"
+        android:paddingRight="@dimen/restaurant_list_margin"
+        android:paddingTop="@dimen/restaurant_list_margin">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="5dp">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/reload"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="reload"
+            android:text="Network problem. Click to reload."
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

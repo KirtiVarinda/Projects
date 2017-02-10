@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_row_height"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/policy_index"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/policies_text"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/policy_right"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        style="@style/policies_text" />
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.tiffindaddy.app.tiffindaddy.ProductPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reload"
+        android:onClick="reload"
+        android:orientation="vertical">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/appBar1"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/side_nav_bar"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/Button"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/green_with_tab_below"
+                        android:layout_height="wrap_content"
+                        android:text="Today"
+                        android:onClick="Today"/>
+                    <Button
+                        android:id="@+id/Button1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/green_rectangle_border"
+                        android:layout_height="wrap_content"
+                        android:text="Tomorrow"
+                        android:onClick="Tomarrow"/>
+                </LinearLayout>
+
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:background="@drawable/side_nav_bar"
+                android:elevation="6dp"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14/14/19"
+                android:paddingLeft="2dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                style="@style/text_style_black"
+                android:id="@+id/textView14" />
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appBar1"/>
+
+    </LinearLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_arrow_forward_white_48dp" />
+
+</android.support.design.widget.CoordinatorLayout>

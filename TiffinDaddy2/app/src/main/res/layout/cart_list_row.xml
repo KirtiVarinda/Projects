@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/grey_rectangle_border"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:paddingBottom="5dp"
+        android:layout_weight="3" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="New Text"
+                android:textColor="#000000"
+                android:paddingLeft="5dp"
+                android:gravity="left|center_vertical"
+                android:id="@+id/textView6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="0dp">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/minus"
+                android:background="@drawable/grey_circle"
+                android:id="@+id/minusbutton" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:text="0"
+                style="@style/text_style_black"
+                android:textSize="26sp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:id="@+id/textView3" />
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/add"
+                android:background="@drawable/green_circle_border"
+                android:id="@+id/plusbutton" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:paddingLeft="5dp"
+                android:id="@+id/textView7" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/delete"
+                android:background="@drawable/red_circle_border"
+                android:id="@+id/delete" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

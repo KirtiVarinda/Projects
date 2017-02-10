@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.funcarddeals.com">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.javapapers.android.maps.path.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/map_api_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_key" />
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!--
+                  <provider android:authorities="com.facebook.app.FacebookContentProvider280092075463935"
+                  android:name="com.facebook.FacebookContentProvider"
+                  android:exported="true" />
+        -->
+
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginScreen"
+            android:label="@string/title_activity_login_screen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+
+                <!-- Sets the intent action to view the activity -->
+                <action android:name="android.intent.action.VIEW" />
+                <!-- Allows the link to be opened from a web browser -->
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Allows the deep link to be used without specifying the app name -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- URI dplink://www.funcard.com -->
+                <data
+                    android:host="funcarddeals"
+                    android:scheme="deeplink" />
+            </intent-filter>
+            <intent-filter>
+
+                <!-- Sets the intent action to view the activity -->
+                <action android:name="android.intent.action.VIEW" />
+                <!-- Allows the link to be opened from a web browser -->
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Allows the deep link to be used without specifying the app name -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- URI example://gizmos -->
+                <data
+                    android:host="funcarddeals"
+                    android:scheme="deeplink" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LandingPage"
+            android:label="@string/title_activity_landing_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tutorial"
+            android:label="@string/title_activity_tutorial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainPage"
+            android:label="@string/title_activity_main_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CategoryPage"
+            android:label="@string/title_activity_category_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stores"
+            android:label="@string/title_activity_particular_categories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StorePage"
+            android:label="@string/title_activity_store_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapPage"
+            android:label="@string/title_activity_map_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StoreOffers"
+            android:label="@string/title_activity_store_offers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StoreOfferDetail"
+            android:label="@string/title_activity_offer_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RedeemActivity"
+            android:label="@string/title_activity_redeem"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddFunCrad"
+            android:label="@string/title_activity_add_fun_crad"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserProfile"
+            android:label="@string/title_activity_user_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Policies"
+            android:label="@string/title_activity_policies"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BuyFuncard"
+            android:label="@string/title_activity_buy_funcard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FuncardReminders"
+            android:label="@string/title_activity_funcard_reminders"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FuncardFavourites"
+            android:label="@string/title_activity_funcard_favourites"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BuyFuncardBillingAddress"
+            android:label="@string/title_activity_buy_funcard_billing_address"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".PayWithPayPal"
+            android:label="@string/title_activity_pay_with_server"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".PayWithCreditCrad"
+            android:label="@string/title_activity_pay_with_credit_crad"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".BarCodeScanner"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+
+        <service android:name=".FuncardService.FuncardService"></service>
+
+        <activity
+            android:name=".ForgotPassword"
+            android:label="@string/title_activity_forgot_password"></activity>
+        <activity android:name=".ResendActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,255 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/female_colorPrimaryDark</item>
+        <item name="colorAccent">@color/female_colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+    </style>
+    <style name="feamleAutocomplete">
+        <item name="android:textColor">@color/female_colorAccent</item>
+        <item name="android:textColorHint">@color/female_colorAccent</item>
+        <item name="colorPrimary">@color/female_colorAccent</item>
+        <item name="colorPrimaryDark">@color/female_colorAccent</item>
+        <item name="colorAccent">@color/female_colorAccent</item>
+        <item name="colorControlNormal">@color/female_colorAccent</item>
+        <item name="colorControlActivated">@color/female_colorAccent</item>
+    </style>
+
+
+    <style name="maleAutocomplete">
+        <item name="colorControlHighlight">@color/accent</item>
+        <item name="android:textColorHint">@color/male_colorPrimaryDark</item>
+        <item name="android:textColor">@color/male_colorPrimaryDark</item>
+        <item name="colorPrimary">@color/male_colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/male_colorPrimaryDark</item>
+        <item name="colorAccent">@color/male_colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/male_colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/male_colorPrimaryDark</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorHint">@color/female_colorAccent</item>
+    </style>
+
+    <style name="FemaleTheme">
+    <item name="android:theme">@style/AppTheme.NoActionBar</item>
+    </style>
+
+    <style name="green">
+        <item name="colorPrimaryDark">@color/CHECK_COLO</item>
+        <item name="colorAccent">@color/CHECK_COLO</item>
+        <item name="android:textColorHint">@color/CHECK_COLO</item>
+    </style>
+
+
+    <style name="MaleTheme">
+        <item name="android:theme">@style/AppTheme1.NoActionBar</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/male_colorPrimaryDark</item>
+        /** Change Underline color  and floationg color */
+        <item name="colorAccent">@color/male_colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle1</item>
+
+    </style>
+
+    <style name="AppTheme1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorHint">@color/male_colorAccent</item>
+    </style>
+
+
+
+
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+
+    </style>
+
+
+
+
+
+
+    <style name="Autocompletes" parent="TextAppearance.Design.Hint">
+
+
+        <item name="android:textColorHint">#262860</item>
+        <item name="android:textColor">#262860</item>
+
+    </style>
+
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="android:textSize">14sp</item>
+        <item name="android:listDivider">@drawable/devider</item>
+    </style>
+    
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#ef3f38</item>
+        <item name="spinBars">true</item>
+    </style>
+    <style name="DrawerArrowStyle1" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#45bbcd</item>
+        <item name="spinBars">true</item>
+    </style>
+
+    <style name="AppThemes" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/black</item>
+        <item name="actionMenuTextColor">#ffffff</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+
+    </style>
+
+    <style name="ActionBarStyle.Transparent" parent="android:Widget.ActionBar">
+        <item name="android:background">#66000000</item>
+        <item name="android:displayOptions">showHome|showTitle</item>
+        <item name="android:titleTextStyle">@style/ActionBarStyle.Transparent.TitleTextStyle</item>
+    </style>
+
+    <style name="ActionBarStyle.Transparent.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+
+
+    </style>
+
+
+    <style name="AIOBase" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#D1000000
+        </item>
+
+    </style>
+
+
+    <style name="AIO" parent="AIOBase" />
+
+    <style name="AIO.Dark" parent="AIOBase">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#D1000000
+        </item>
+    </style>
+
+    <style name="AIO.White" parent="AIOBase">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#D1000000
+        </item>
+    </style>
+
+
+    <!-- button style-->
+    <style name="AppTheme.button">
+        <item name="android:textColor">#ffffff</item>
+
+        <item name="android:background">@drawable/button_gradient</item>
+    </style>
+
+    <style name="AppTheme.button.marginLeft">
+
+
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="AppTheme.button.marginRight">
+
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+
+    </style>
+
+    <style name="MyActionBar.MenuTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:actionMenuTextColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.button.lovemeter">
+
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+
+    <!-- add parent text view size-->
+
+    <style name="textView1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/addPartner_textPaddingLeft</item>
+        <item name="android:textColor">#bf000000</item>
+        <item name="android:textSize">@dimen/addPartner_TextSize</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">4</item>
+    </style>
+
+    <style name="textView2">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#7b7979</item>
+        <item name="android:textSize">@dimen/addPartner_TextSize</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">6</item>
+    </style>
+
+    <style name="setItem" parent="AppTheme">
+        <item name="android:height">.5dp</item>
+
+
+    </style>
+    <style name="MyCheckBox" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">#ffffff</item> <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">#ffffff</item> <!-- activated color change as you wish -->
+        <item name="android:textColor">#FFFF3F3C</item> <!-- checkbox text color -->
+    </style>
+
+
+</resources>

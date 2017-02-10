@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lovelife.lovelife.ChatActivity">
+    <item
+        android:id="@+id/attachment"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@drawable/ic_attachment_white_24dp"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/camera"
+                android:orderInCategory="100"
+                android:title="Camera"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/gallery"
+                android:orderInCategory="100"
+                android:title="Gallery"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+
+</menu>

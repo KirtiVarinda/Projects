@@ -1,0 +1,221 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hourly_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/hourlypage_centerlayout_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.4"
+            android:gravity="center_vertical|end"
+            android:background="@drawable/hourly_top"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:onClick="closePage"
+                android:src="@drawable/close_page" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.7"
+            android:background="@drawable/hourly_top_1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hourlypage_summarizeText"
+                android:singleLine="true"
+                style="@style/hourlyPage_textStyle"
+                android:layout_weight="1"
+                android:id="@+id/textView" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:layout_margin="@dimen/yesButton_margin"
+                android:src="@drawable/yes_alarm" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:paddingBottom="5dp"
+            android:background="@drawable/hourly_center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/semiRound_marginLeft"
+                style="@style/hourlyPgae_semiround_textStyle"
+                android:background="@drawable/clicked_change"
+                android:text="@string/medicine"
+                android:clickable="true"
+                android:onClick="medicineReminder"
+                android:id="@+id/textView42" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/workout"
+                android:onClick="workoutReminder"
+                android:clickable="true"
+                style="@style/hourlyPgae_semiround_textStyle"
+                android:background="@drawable/semiround_grey"
+                android:id="@+id/textView43" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/routine"
+                android:clickable="true"
+                style="@style/hourlyPgae_semiround_textStyle"
+                android:onClick="routineReminder"
+                android:background="@drawable/semiround_grey"
+                android:id="@+id/textView44" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/hourly_center"
+            android:gravity="center_vertical"
+            android:onClick="getmedicineName"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/textPadding_left"
+                android:text="@string/text_for"
+                style="@style/hourlyPage_textStyle1"
+                android:id="@+id/textView45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="wrap_content"
+                android:text="@string/medicine_name"
+                android:textColor="#2D2D2D"
+                style="@style/hourlyPage_textStyle2"
+                android:id="@+id/textView46" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/edit_img"
+                android:id="@+id/textView47" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/hourly_center"
+            android:gravity="center_vertical"
+            android:onClick="getReminderTimes"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/textPadding_left"
+                android:text="@string/text_at"
+                style="@style/hourlyPage_textStyle1"
+                android:id="@+id/textView48" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="wrap_content"
+                android:text="@string/medicine_time"
+                style="@style/hourlyPage_textStyle2"
+                android:id="@+id/textView49" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/edit_img"
+                android:id="@+id/textView50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/hourly_bottom"
+            android:gravity="center_vertical"
+            android:onClick="getSchedule"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/textPadding_left"
+                android:text="@string/text_on"
+                style="@style/hourlyPage_textStyle1"
+                android:id="@+id/textView51" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="wrap_content"
+                android:text="@string/medicine_schedule"
+                style="@style/hourlyPage_textStyle2"
+                android:id="@+id/textView52" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/edit_img"
+                android:id="@+id/textView53" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.7"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>

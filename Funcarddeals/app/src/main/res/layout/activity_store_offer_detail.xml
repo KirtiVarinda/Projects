@@ -1,0 +1,240 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include layout="@layout/header" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:background="#DBDBDA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            style="@style/top_center_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:onClick="goToStorePage"
+            android:clickable="true"
+            android:layout_weight=".7"
+            android:background="@drawable/greenwitharrow"  />
+
+
+        <RelativeLayout
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:onClick="allOffers"
+                android:src="@drawable/all_store_button" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/landing_button_green"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:onClick="redeem"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/store_offer_detail_button_margin_right"
+                android:text="@string/redeem_button" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        style="@style/store_product_detail_textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:gravity="center" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.2"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/imgArea"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.2">
+
+                <TextView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/store_offer_detail_image_margin"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="Loading Image......"
+                    android:textColor="#3c0000" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    style="@style/store_offer_detail_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView14"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/offerdetail_yellowback" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/product_detail_layout_error"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.2"
+                android:gravity="center"
+                android:onClick="reload"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/product_detail_img"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_refresh" />
+
+                <TextView
+                    android:id="@+id/product_detail_text_error"
+                    style="@style/general_light_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/network_error_for_list" />
+
+            </LinearLayout>
+
+
+            <ScrollView
+                android:id="@+id/scrollview"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.2"
+                android:background="#B4B4B4"
+                android:fillViewport="true"
+                android:scrollbars="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/instruction_padding">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/storetextshadow"
+                android:onClick="showInstructions"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView34"
+                    style="@style/store_product_detail_textStyle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    style="@style/store_product_detail_textStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6"
+                    android:background="@null"
+                    android:gravity="center_horizontal|top"
+                    android:text="Click here for more Instructions."
+                    android:textColor="#3c0000" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/store_offer_detail_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="addReminder"
+                android:background="@drawable/red_button_store_detail"
+                android:text="@string/store_offer_detail_button_add_rem" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/store_offer_detail_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="addFavourite"
+                android:background="@drawable/red_button_store_detail"
+                android:text="@string/store_offer_detail_button_add_fav" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include layout="@layout/footer" />
+    </LinearLayout>
+
+</LinearLayout>

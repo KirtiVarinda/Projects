@@ -1,0 +1,307 @@
+<resources>
+    <string name="app_name">Fun Card Deals</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="logout">Do you want to Logout Funcard?</string>
+
+    <string name="copyright">Copyright 2016. Fun Card and eDells Marketing, Wisconsin Dells.</string>
+    <string name="term_condition">Terms and Policies.</string>
+    <string name="map_api_key">AIzaSyAILxsvtY71rVcAoH3UjLZ0B8ktUpfZsFQ</string>
+    <!-- release <string name="map_api_key">AIzaSyAaFyT0EckoSkRm7wV9AgLLdLQIuuQPuQY</string> -->
+    <!-- debug   <string name="map_api_key">AIzaSyAi5UtwEBJTsWs53qh1LJjXYJ3i7cswWjo</string>  -->
+    <string name="network_error_for_list">Network error. Click to Refresh.</string>
+
+
+    <!-- facebook Api key  -->
+    <string name="fb_key">1551462695158547</string>
+    <!-- <string name="fb_key">280092075463935</string>-->
+    <!--  <string name="fb_key">507385546004595</string>-->
+
+    <!--<string name="fb_key">896671070388699</string>-->
+
+    <!--
+   <string name="fb_key">170193099991789</string>
+   <string name="fb_key">798118333637925</string>  -->
+
+    <!-- colors used   -->
+    <color name="mainpage_maroonText">#3E0000</color>
+    <color name="mainpage_greyText">#5A5A5A</color>
+
+    <!-- url used   -->
+
+    <string name="funcard_login_url">https://funcarddeals.com/json/users/get_login</string>
+    <string name="funcard_facebook_login_url">https://funcarddeals.com/json/users/get_loginFacebook</string>
+    <!--<string name="funcard_registeration_url">https://funcarddeals.com/json/users/get_register</string>-->
+
+    <string name="funcard_registeration_url">https://funcarddeals.com/json/users/get_register_new</string>
+    <string name="funcrad_cities">https://funcarddeals.com/json/users/get_cities</string>
+    <string name="funcrad_category">https://funcarddeals.com/json/categories/getcats</string>
+    <string name="funcrad_category_advertisment">https://funcarddeals.com/json/categories/getcatsads</string>
+    <string name="funcrad_particular_category">https://funcarddeals.com/json/shops/getstores</string>
+    <string name="funcrad_store_page">https://funcarddeals.com/json/shops/storeinfo</string>
+    <string name="funcrad_store_products">https://funcarddeals.com/json/shops/getproducts</string>
+    <string name="funcrad_store_products_detail">https://funcarddeals.com/json/products/getoffer</string>
+    <string name="redeem_check">http://funcarddeals.com/json/products/checkredeem</string>
+    <string name="redeem_confirm">http://funcarddeals.com/json/products/getredeem</string>
+    <string name="add_funcard">http://funcarddeals.com/json/cards/validate_coupon</string>
+    <string name="user_profile">http://funcarddeals.com/json/user_cards/card_detail</string>
+    <string name="policies">http://funcarddeals.com/json/pages/policy</string>
+    <string name="resend_email">https://funcarddeals.com/json/users/changeEmail</string>
+    <string name="buy_url1">http://funcarddeals.com/json/cards/setCardDetail</string>
+    <string name="stores_ads_url">https://funcarddeals.com/json/shops/getStoreAds</string>
+    <string name="forgotpass">https://funcarddeals.com/json/users/forgot_pass</string>
+
+
+    <string name="pay_with_paypal_url">https://funcarddeals.com/cards/newRemotePaypal</string>
+    <string name="pay_with_authorizenet">https://funcarddeals.com/cards/new_purchase_authorize</string>
+    <!--  Login page -->
+    <string name="email1">Email</string>
+    <string name="pass">Password</string>
+    <string name="retype_pass">Retype Password</string>
+    <string name="check_box1">Keep me signed in.</string>
+    <string name="check_box">Remember me</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="button1">Register</string>
+    <string name="button2">Sign in</string>
+    <string name="fb_login">Login with Facebook</string>
+    <string name="title_activity_landing_page">LandingPage</string>
+    <string name="email_verification_register">An Email has been sent to your Registered Email. Please verify your Email ID before login.</string>
+    <string name="email_verification_login">An Email has been sent to your Email ID Please Verify.</string>
+
+
+    <string name="pop_title">Sorry!</string>
+    <string name="pop_message_disable_user">You have been disabled from Fun Card.Please contact Admin.</string>
+    <string name="pop_message_invalid_from_server">Wrong Username or Password.</string>
+    <string name="pop_message_invalid_from_local">Please enter valid Username and Password.</string>
+    <string name="network_error">Network Problem.</string>
+
+
+    <!--  menus -->
+    <string name="logout_menu">Logout</string>
+    <string name="buy_funcard_menu">Buy Fun Card</string>
+    <string name="add_funcard_menu">Add Fun Card</string>
+    <string name="policy_menu">Policies</string>
+    <string name="user_account_menu">My Account</string>
+    <string name="Tutiorial_menu">Tutorial</string>
+
+    <!--  landing page -->
+    <string name="yellow_button_text">Learn about the Fun Card</string>
+    <string name="title_activity_registration">Registration</string>
+
+    <!-- registeration form -->
+    <string name="name">First Name</string>
+    <string name="phone">Phone</string>
+    <string name="last">Last Name</string>
+    <string name="zip">ZipCode</string>
+    <string name="city">City</string>
+    <string name="select_state">Select State</string>
+
+    <string-array name="registeration_cities">
+        <item>Select State</item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>American Samoa</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>Armed Forces Africa</item>
+        <item>Armed Forces Americas</item>
+        <item>Armed Forces Canada</item>
+        <item>Armed Forces Europe</item>
+        <item>Armed Forces Middle East</item>
+        <item>Armed Forces Pacific</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>District of Columbia</item>
+        <item>Federated States Of Micronesia</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Guam</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Marshall Islands</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Northern Mariana Islands</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Palau</item>
+        <item>Pennsylvania</item>
+        <item>Puerto Rico</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virgin Islands</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+
+    </string-array>
+
+    <string name="reg_fullName">Please enter a valid First Name.</string>
+    <string name="reg_lastName">Please enter a valid Last Name.</string>
+
+    <string name="reg_phone">Please enter a valid Phone Number.</string>
+    <string name="reg_zip">Please enter a valid Zip Code.</string>
+    <string name="reg_city">Please enter a valid City.</string>
+    <string name="reg_state">Please select a State.</string>
+    <string name="reg_email">Please enter a valid Email.</string>
+    <string name="reg_pass">Password should be more than 4 characters.</string>
+    <string name="reg_re_pass">Password mismatch.</string>
+    <string name="reg_policy_check">Please check Terms and Policies.</string>
+
+    <string name="reg_success_title">Congratulations!</string>
+    <string name="reg_success_message">You have successfully Register with Funcard. Please Login to Funcard. </string>
+    <string name="reg_user_aleady_exist">User already exist. Please try with another Email. </string>
+
+    <!-- tutorial   -->
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="Got_it">Got it!</string>
+    <string name="MoreInfo">More Info</string>
+
+
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="title_activity_category_page">CategoryPage</string>
+    <string name="title_activity_particular_categories">ParticularCategories</string>
+    <string name="title_activity_store_page">StorePage</string>
+    <string name="title_activity_map_page">MapPage</string>
+    <string name="title_activity_store_offers">StoreOffers</string>
+    <string name="title_activity_offer_detail">OfferDetail</string>
+
+    <!--store_offer_detail_text  -->
+    <string name="store_offer_detail_button_add_fav">Add to Favorites</string>
+    <string name="store_offer_detail_button_add_rem">Add to Reminders</string>
+    <string name="title_activity_redeem">RedeemActivity</string>
+    <string name="redeem_button">Redeem</string>
+
+    <!-- store offers -->
+    <string name="offerhead_text1">Products Offered (# of Redemptions)</string>
+    <string name="offerhead_text2">Remind</string>
+    <string name="offerhead_text3">Favorite</string>
+
+    <!-- main page -->
+    <string name="pick_city">Pick your city</string>
+    <string name="price">Price</string>
+    <string name="offers">Offers</string>
+
+    <!-- category page -->
+    <string name="category_left_title">Category</string>
+    <string name="category_right_title">Offers</string>
+
+    <!-- Redeem code -->
+    <string name="redeem_code">REDEMPTION CODE</string>
+
+    <!-- Redeem page -->
+    <string name="redeem_purchase_card">Unfortunately this offer has already been redeemed.</string>
+    <string name="card_already_redeemed">Unfortunately this offer has already been redeemed.</string>
+    <string name="redeem_success">You are about to redeem this Discount from your Fun Card. Do you want to proceed?</string>
+    <string name="bottom_text3">Please check your Favorites for more discounts.</string>
+    <string name="redeem_text4">"Your discount item will be redeemed"</string>
+    <string name="bottom_text1">Once you Close your screen.</string>
+    <string name="bottom_text2">Your Discount Item will Expire!.</string>
+
+    <string name="redeem_thanksmessage">Thank you for using this discount with the Fun Card.</string>
+    <string name="title_activity_add_fun_crad">AddFunCard</string>
+
+
+    <string name="addfuncard_text">Add your 16 Digital Fun Card Characters here.</string>
+    <string name="addfuncard_button_text">Activate</string>
+    <string name="resend">Resend</string>
+    <string name="card_added_successfuly">Your digital Fun Card has been approved. You can start using your Fun Card App immediately.</string>
+    <string name="addfuncard_wrong">You have entered wrong Fun Card Characters.</string>
+    <string name="addfuncard_not_valid">Please enter a valid Fun Card Characters. </string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="resend_verification_email">Resend verification email on the following Email ID.</string>
+
+
+    <!--   user profile page -->
+    <string name="account_detail">Account Details</string>
+    <string name="my_purchase_history">"My Purchase History</string>
+    <string name="status">Status</string>
+    <string name="funcard_no">Fun Card No</string>
+    <string name="title_activity_policies">POLICIES</string>
+    <string name="title_activity_buy_funcard">BuyFuncard</string>
+    <string name="title_activity_funcard_reminders">FuncardReminders</string>
+
+    <!-- Funcard Reminders-->
+    <string name="reminder_title">Location Reminders</string>
+    <string name="no_reminder">There are no reminders in the list.</string>
+    <string name="title_activity_funcard_favourites">FuncardFavourites</string>
+
+
+    <!-- funcard favourites -->
+    <string name="fav">My Favorites</string>
+    <string name="no_favourites">There are no Favorites in the list.</string>
+
+
+    <!-- buy funcard -->
+    <string name="quantity">QUANTITY</string>
+    <string name="reseller_id">RESELLER ID</string>
+    <string name="leave">Leave if not applicable.</string>
+    <string name="qr">Scan QR Code</string>
+    <string name="total">Total ($)</string>
+    <string name="reset">Reset</string>
+    <string name="pay_with_paypal">Pay With PayPal</string>
+    <string name="pay_with_card">Pay With Credit Card</string>
+    <string name="card_empty">Quantity should not be Empty.</string>
+    <string name="validCardEntered">Quantity should be between 0 and 10.</string>
+    <string name="buy_city">Please select a city.</string>
+    <string name="title_activity_buy_funcard_billing_address">BuyFuncardBillingAddress</string>
+
+    <string name="address">Address</string>
+    <string name="continu">Continue</string>
+
+    <string name="billing_title">Billing Address</string>
+    <string name="billing_valid_address">Please enter a valid address.</string>
+    <string name="title_activity_pay_with_server">PayWithServer</string>
+    <string name="title_activity_pay_with_credit_crad">PayWithCreditCrad</string>
+
+
+    <string name="crad_no">Card Number.</string>
+    <string name="expire_month">Month</string>
+    <string name="expire_year">Year</string>
+    <string name="card_title">Pay with Visa or MasterCard</string>
+
+    <string name="invalid_card">Please enter a valid card number.</string>
+    <string name="invalid_month">Please enter a valid month.</string>
+    <string name="invalid_years">Please enter a valid year.</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+
+
+    <string name="forgotemail">Please enter your Email ID.</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="attention">Attention!</string>
+    <string name="store_distance">You are too far away from the store,Cant show you on map.</string>
+</resources>

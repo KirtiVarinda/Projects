@@ -1,0 +1,78 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="lovetheme_maring_top">20dp</dimen>
+    <dimen name="lovetheme_maring_top2">32dp</dimen>
+    <dimen name="loveScroll_marginBottom">70dp</dimen>
+    <dimen name="restaurant_list_margin">10dp</dimen>
+    <dimen name="row_margin">8dp</dimen>
+    <dimen name="row_margin2">4dp</dimen>
+    <dimen name="resto_textsize1">18sp</dimen>
+    <dimen name="resto_textsize2">14sp</dimen>
+    <dimen name="chat_image_height">220dp</dimen>
+    <dimen name="chat_image_width">220dp</dimen>
+
+
+    <dimen name="keyboard_height">100dp</dimen>
+
+    <dimen name="piechat_text">25sp</dimen>
+    <dimen name="piechat_height">250dp</dimen>
+    <dimen name="image_height">120dp</dimen>
+    <dimen name="text_margin">10dp</dimen>
+    <dimen name="image_margin">3dp</dimen>
+
+    <dimen name="actionBarLogoWidth">180dp</dimen>
+    <dimen name="actionBarPartnerLogoWidth">55dp</dimen>
+    <dimen name="actionBarPartnerAddLogoWidth">16dp</dimen>
+
+    <dimen name="loginPage_LogoMargin">20dp</dimen>
+    <dimen name="loginPage_LoginButton_marginTop">10dp</dimen>
+    <dimen name="loginPage_LoginButton_marginBottom">15dp</dimen>
+    <dimen name="loginPage_FacebookButton_marginTop">5dp</dimen>
+    <dimen name="loginPage_FacebookButton_marginBottom">25dp</dimen>
+
+    <dimen name="editImage_resolution">40dp</dimen>
+
+    <dimen name="addPartnerLogoWidth">70dp</dimen>
+    <dimen name="addPartner_marginLeft">15dp</dimen>
+
+    <dimen name="addPartner_titleTextSize">18sp</dimen>
+    <dimen name="addPartner_TextSize">15sp</dimen>
+    <dimen name="addPartner_textPaddingLeft">40dp</dimen>
+
+    <dimen name="addPartner_buttonPaddingLeft">80dp</dimen>
+    <dimen name="addPartner_buttonPaddingTop">17dp</dimen>
+    <dimen name="addPartner_PartnerAddLogoWidth">23dp</dimen>
+    <dimen name="arrowWidth">30dp</dimen>
+    <dimen name="invitePartner_Height">50dp</dimen>
+    <dimen name="invitePartner_width">200dp</dimen>
+
+
+    <!--connect to partner page-->
+    <dimen name="row_height">68dp</dimen>
+
+
+    <dimen name="layout_padding">5dp</dimen>
+    <dimen name="left_margin">50dp</dimen>
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="leftMargin">15dp</dimen>
+    <dimen name="Margin">5dp</dimen>
+    <dimen name="rightMargin">15dp</dimen>
+    <dimen name="padding">20dp</dimen>
+
+    <dimen name="nav_image_height">130dp</dimen>
+    <dimen name="text_marrginLeftt">17dp</dimen>
+
+
+    <dimen name="logoWidth">230dp</dimen>
+    <dimen name="logo_marginLeft">44dp</dimen>
+
+    <dimen name="button_size">55dp</dimen>
+    <dimen name="button_text_size">15dp</dimen>
+</resources>

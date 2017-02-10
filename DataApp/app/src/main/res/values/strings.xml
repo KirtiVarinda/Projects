@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="form_title">User Entry Details</string>
+    <string name="fixr_name">Name:</string>
+    <string name="fixr_city">City:</string>
+    <string name="fixr_work_type">Tags:</string>
+    <string name="fixr_trade">Trade:</string>
+    <string name="fixr_phone">Phone:</string>
+    <string name="fixr_level">Level:</string>
+    <string name="fixr_address">Address:</string>
+    <string name="fixr_hours">Per Day Cost:</string>
+    <string name="fixr_avg_cost">Per Visit Cost:</string>
+    <string name="fixr_certification">Certification:</string>
+    <string name="fixr_experience">Experience:</string>
+    <string name="fixr_image">Profile Pic:</string>
+    <string name="fixr_gallery">Profile Pic:</string>
+    <string name="fixr_email">Email:</string>
+    <string name="fixr_pin">Pin:</string>
+    <string name="site_url">http://www.getfixr.in</string>
+    <string name="fixr_city_url">http://www.getfixr.in/wp-content/themes/GetFixr/cityForDataApp.php</string>
+    <!--<string name="send_fixr_data_to_serevr_images">http://ww2.getfixr.com/wp-content/themes/GetFixr/AppUploadFixer.php</string> -->
+    <string name="send_fixr_data_to_serevr_images">http://getfixr.com/app_img_upload.php</string>
+    <string name="send_fixr_data_to_serevr">http://getfixr.in/wp-content/themes/GetFixr/AppUploadFixer.php</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <!--  <string name="login_from_server">http://ww2.getfixr.com/auth.php</string>-->
+    <string name="login_from_server">http://www.getfixr.in/auth.php</string>
+    <string name="location_track_server">http://www.getfixr.in/usertrack.php</string>
+    <string name="fixer_number">http://www.getfixr.in/dataphone.php</string>
+    <string name="access_token">dxdev@296</string>
+
+    <string-array name="exp_in_years">
+        <item>Select Years</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+
+    </string-array>
+
+
+    <string-array name="exp_in_months">
+        <item>Select Months</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+    <string-array name="worktype_electrician">
+        <item>Select</item>
+        <item>AC Installation</item>
+        <item>AC Service</item>
+        <item>Air Conditioning</item>
+        <item>Circuits and Wiring</item>
+        <item>Commercial Fitting</item>
+        <item>Elecrical Wiring</item>
+        <item>Electrical Equipment Installation</item>
+        <item>Electrical Fittings</item>
+        <item>Electrical Repairs</item>
+        <item>Electrician</item>
+        <item>Fall Ceiling Wiring</item>
+        <item>Fency Light Installation</item>
+        <item>Indoor lighting</item>
+        <item>LED Lighting</item>
+        <item>Main Electrical Panels</item>
+        <item>Motor Repairs</item>
+        <item>Outdoor lighting</item>
+        <item>Home Appliances Repair</item>
+    </string-array>
+
+    <string-array name="worktype_painter">
+        <item>Select</item>
+        <item>Banner Painting</item>
+        <item>Commercial Painter</item>
+        <item>Exterior Painting</item>
+        <item>Interior Painting</item>
+        <item>Oil Painting</item>
+        <item>Plastic Painting</item>
+        <item>Residential Painter</item>
+        <item>Roof Coating and Painting</item>
+        <item>Texture Painting</item>
+        <item>Wall Painting</item>
+        <item>White Wash</item>
+        <item>Wall Texture</item>
+    </string-array>
+    <string-array name="worktype_plumber">
+        <item>Select</item>
+        <item>Disposal Systems</item>
+        <item>Bath Fittings</item>
+        <item>Bath Tub installation</item>
+        <item>Leakage Repairs</item>
+        <item>Pipe blockage</item>
+        <item>Pipe Fitting</item>
+        <item>Plumber</item>
+        <item>Plumbing Contracters</item>
+        <item>Sanitary Fitting</item>
+        <item>Sewar and Drain Cleaning</item>
+        <item>Unclogging</item>
+        <item>Shower Installation</item>
+        <item>PVC Fittings</item>
+        <item>Interior Decorators</item>
+        <item>Interior Designers</item>
+    </string-array>
+    <string-array name="worktype_carpenter">
+        <item>Select</item>
+        <item>Cane Furniture</item>
+        <item>Carpenter</item>
+        <item>Commercial Furniture</item>
+        <item>Cupboard</item>
+        <item>Custom Doors</item>
+        <item>Doors Repair</item>
+        <item>Furniture Repair</item>
+        <item>General Wood Repairwork</item>
+        <item>Office Furniture</item>
+        <item>Sofa repair</item>
+        <item>Window Repair</item>
+        <item>Wood Windows and Frames</item>
+        <item>Wood Work</item>
+        <item>Wooden Cabinet</item>
+        <item>Wood Polish</item>
+        <item>Wood varnish</item>
+        <item>Kitchen Cabinet</item>
+        <item>Home Improvement</item>
+        <item>Kitchen Remodeling</item>
+        <item>Modular Kitchen</item>
+    </string-array>
+    <string-array name="worktype_mason">
+        <item>Select</item>
+        <item>Brick Work</item>
+        <item>Building Construction</item>
+        <item>Mason Work</item>
+        <item>Plaster of Paris Work</item>
+        <item>Tile Work</item>
+        <item>Labour Contracters</item>
+        <item>Ceiling Slabs</item>
+        <item>Concrete work</item>
+        <item>Civil Contracters</item>
+        <item>Foundation work</item>
+        <item>House Repairs and Maintenance</item>
+        <item>Water proofing</item>
+    </string-array>
+    <string name="title_activity_get_fixt_data">GetFixtData</string>
+    <string name="title_activity_getfixr_login">GetfixrLogin</string>
+</resources>

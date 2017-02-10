@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "51332271576",
+    "firebase_url": "https://designersx-projects.firebaseio.com",
+    "project_id": "designersx-projects",
+    "storage_bucket": "designersx-projects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51332271576:android:b2598ea7c73e63dd",
+        "android_client_info": {
+          "package_name": "com.lovelife.lovelife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51332271576-6p2ddf4urbb73guab4itpfrukuiqqp2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lovelife.lovelife",
+            "certificate_hash": "782799EEB61F914DF25C7FD4EB38BAAEFA93CE26"
+          }
+        },
+        {
+          "client_id": "51332271576-0qc2qtfh4o92ret6v5n7he5tmkpa61n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD03XaBkyCxlbwzBIc4I9c00i0Tn9EGxDI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51332271576-0qc2qtfh4o92ret6v5n7he5tmkpa61n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

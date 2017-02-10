@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include layout="@layout/header" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.3"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/redeem_page_titlelayout_height"
+                android:background="#DBDBDA"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    style="@style/top_center_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_weight="1.5"
+                    android:background="@drawable/greenwitharrow" />
+
+                <TextView
+                    android:id="@+id/textView116"
+                    style="@style/store_page_textstyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView117"
+                style="@style/store_page_textstyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".8"
+                android:background="#969696" />
+
+            <TextView
+                android:id="@+id/textView118"
+                style="@style/store_page_textstyle"
+                android:layout_width="match_parent"
+                android:textColor="#800000"
+                android:textStyle="bold"
+                android:layout_height="0dp"
+                android:layout_weight=".7" />
+
+            <TextView
+                android:id="@+id/textView120"
+                style="@style/store_product_detail_textStyle2"
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:layout_height="0dp"
+                android:layout_weight=".7" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="7"
+                    android:src="@drawable/ttt" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/redeem_page_codelayout_height"
+                    android:background="@drawable/green_back"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        style="@style/redeem_page_textstyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="@string/redeem_code" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        style="@style/redeem_page_textstyle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/redeem_page_padding"
+                        android:layout_weight="7"
+                        android:background="@drawable/round_corner"
+                        android:gravity="center"
+                        android:textSize="@dimen/store_offer_detail_price_textsize" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2.2"
+                android:background="#DBDBDA"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:background="#DBDBDA"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="#DBDBDA"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            style="@style/store_page_textstyle"
+                            android:layout_width="match_parent"
+                            android:textColor="#800000"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center|bottom"
+                            android:text="@string/bottom_text1" />
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            style="@style/store_product_detail_textStyle2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center|top"
+                            android:text="@string/bottom_text2" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/redeem_page_padding"
+                        android:layout_weight="1"
+                        android:onClick="home"
+                        android:src="@drawable/fun" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView39"
+                    style="@style/redeem_page_textstyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/redeembottom"
+                    android:text="@string/bottom_text3" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/redeem_error"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.3"
+        android:gravity="center"
+        android:onClick="reload"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/redeem_img"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_refresh" />
+
+        <TextView
+            android:id="@+id/redeem_text"
+            style="@style/general_light_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/network_error_for_list" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include layout="@layout/footer" />
+    </LinearLayout>
+
+</LinearLayout>

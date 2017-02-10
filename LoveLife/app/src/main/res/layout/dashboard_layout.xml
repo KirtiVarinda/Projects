@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/love">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D1000000"
+        android:fitsSystemWindows="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context="com.lovelife.lovelife.LoginActivity">
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/lovetheme_maring_top"
+            android:layout_weight="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/piechat_height"
+                        android:layout_margin="25dp"
+                        android:layout_weight="1.5" />
+
+
+                    <TextView
+                        android:id="@+id/regFirstName2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".5"
+                        android:text="Love Meter"
+                        android:typeface="sans"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/piechat_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="@dimen/text_margin"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/text_margin"
+                        android:layout_weight=".2"
+                        android:background="@drawable/name_background"
+                        android:text="User Name"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/userimg"
+                            android:layout_width="0dp"
+                            android:layout_weight=".3"
+                            android:layout_height="@dimen/image_height"  />
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/image_margin"
+                            android:layout_weight=".1"
+                            android:gravity="center"
+                            android:text="V/S"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+
+                        <ImageView
+                            android:id="@+id/partnerImg"
+                            android:layout_width="0dp"
+                            android:layout_weight=".3"
+                            android:layout_height="@dimen/image_height"  />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/partnername"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/text_margin"
+                        android:layout_weight=".2"
+                        android:background="@drawable/name_background"
+                        android:text="Partner Name "
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/button"
+                        style="@style/AppTheme.button.lovemeter"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".2"
+                        android:text="Share" />
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

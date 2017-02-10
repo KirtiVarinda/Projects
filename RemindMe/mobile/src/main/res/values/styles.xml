@@ -1,0 +1,224 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!--       All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!--
+        <style name="Theme.Transparent" parent="android:Theme">
+       <item name="android:windowIsTranslucent">true</item>
+       <item name="android:windowBackground">@android:color/transparent</item>
+       <item name="android:windowContentOverlay">@null</item>
+       <item name="android:windowNoTitle">true</item>
+       <item name="android:windowIsFloating">true</item>
+       <item name="android:backgroundDimEnabled">true</item>
+     </style>
+   -->
+
+
+    <style name="ListBackContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/height_list</item>
+        <item name="android:background">@drawable/list_shadow_repeat</item>
+        <item name="android:gravity">center_vertical|right</item>
+
+
+    </style>
+
+    <style name="ListFrontContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/height_list</item>
+        <item name="android:background">@color/background_list_front</item>
+        <item name="android:padding">@dimen/padding_default</item>
+    </style>
+
+    <style name="ListImage">
+        <item name="android:layout_width">@dimen/size_list_image</item>
+        <item name="android:layout_height">@dimen/size_list_image</item>
+        <item name="android:scaleGravity">fill</item>
+        <item name="android:layout_marginRight">@dimen/padding_default</item>
+    </style>
+
+    <style name="ListTitle">
+        <item name="android:paddingBottom">@dimen/padding_default</item>
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textSize">@dimen/font_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ListDescription">
+        <item name="android:textColor">@color/text_description</item>
+        <item name="android:textSize">@dimen/font_size_description</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ListButtonAction">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!-- Settings -->
+
+    <style name="SettingTitle">
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textSize">@dimen/font_size_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SettingContent">
+        <item name="android:paddingBottom">@dimen/padding_default</item>
+        <item name="android:layout_marginLeft">@dimen/margin_setting</item>
+    </style>
+
+    <style name="SettingText">
+        <item name="android:textColor">@color/text_description</item>
+        <item name="android:textSize">@dimen/font_size_description</item>
+        <item name="android:layout_marginRight">@dimen/margin_default</item>
+    </style>
+
+    <style name="Line">
+        <item name="android:background">@color/line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/line_default</item>
+    </style>
+
+    <style name="New">
+        <item name="android:textColor">@color/text_new_tag</item>
+        <item name="android:textSize">@dimen/font_size_new_tag</item>
+        <item name="android:text">@string/newTag</item>
+        <item name="android:background">@drawable/background_new_tag</item>
+        <item name="android:padding">@dimen/padding_new_tag</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!--
+    <style name="Theme.Custom" parent="@android:Theme">
+      <item name="android:calendarViewStyle">@style/Widget.CalendarView.Custom</item>
+    </style>
+
+    <style name="Widget.CalendarView.Custom" parent="android:Widget.CalendarView">
+        <item name="android:focusedMonthDateColor">@color/cs_textcolor</item>
+        <item name="android:weekNumberColor">@color/red</item>
+        <item name="android:weekDayTextAppearance">@style/TextAppearance.Medium</item>
+    </style>  -->
+
+
+    <style name="myTheme_Textcolor">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/hourlypage_textSize</item>
+    </style>
+
+
+    <!-- hourly reminder page -->
+    <style name="hourlypage_centerlayout_style">
+        <item name="android:layout_marginLeft">@dimen/center_layoutmargin_left</item>
+        <item name="android:layout_marginRight">@dimen/center_layoutmargin_right</item>
+    </style>
+
+    <style name="hourlyPage_textStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingLeft">@dimen/textPadding_left</item>
+        <item name="android:paddingRight">@dimen/textPadding_right</item>
+        <item name="android:textSize">@dimen/hourlypage_textSize</item>
+    </style>
+
+    <style name="hourlyPgae_semiround_textStyle" parent="myTheme_Textcolor">
+        <item name="android:paddingTop">@dimen/semiRound_paddingTop</item>
+        <item name="android:layout_marginRight">@dimen/semiRound_marginRight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+
+    </style>
+
+    <style name="hourlyPage_textStyle1">
+        <item name="android:textColor">#878787</item>
+        <item name="android:textSize">@dimen/hourlypage_textSize2</item>
+    </style>
+
+    <style name="hourlyPage_textStyle2">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/hourlypage_textSize3</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="reminderMessage_textStyle">
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/reminderMessage_textSize</item>
+
+    </style>
+
+
+    <style name="selectWeekDay_textStle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+
+    <!-- main page strip text style -->
+    <style name="strip_textStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/main_page_strip</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:background">@drawable/background_head</item>
+        <item name="android:minHeight">@dimen/mainlist_height</item>
+        <item name="android:visibility">invisible</item>
+
+
+    </style>
+
+
+    <style name="text_theme_white">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_theme_black">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="getmissedcall_text_theme" parent="text_theme_black">
+        <item name="android:textSize">@dimen/catch_missedCall_textSize11</item>
+    </style>
+    <style name="getmissedcall_text2_theme">
+        <item name="android:textColor">#787878</item>
+        <item name="android:textSize">@dimen/catch_missedCall_textSize21</item>
+    </style>
+
+
+    <style name="getmissedcall_buttontext_theme" parent="text_theme_white">
+        <item name="android:textSize">@dimen/catch_missedCall_textSize11</item>
+        <item name="android:gravity">center</item>
+
+
+    </style>
+
+
+
+</resources>

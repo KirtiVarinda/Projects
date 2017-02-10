@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chatlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1000000"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/msgListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="#ffffff"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/borderattop"
+            android:orientation="horizontal">
+
+
+            <io.github.rockerhieu.emojicon.EmojiconEditText
+                android:id="@+id/editEmojicon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:hint="@string/message"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:minHeight="50dp"
+                emojicon:emojiconSize="32sp" />
+
+            <ImageButton
+                android:id="@+id/sendMessageButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/edit_logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/borderattop1"
+            android:weightSum="4">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="5"
+
+                android:layout_weight="1.5">
+
+                <ImageButton
+                    android:id="@+id/keyboard"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="15dp"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbutton_chat" />
+
+                <ImageButton
+                    android:id="@+id/SmilyButton"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/smileyicon_chat" />
+
+                <ImageButton
+                    android:id="@+id/cam"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/camicon_chat" />
+
+                <ImageButton
+                    android:id="@+id/pic"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/imageattach_chat" />
+
+                <ImageButton
+                    android:id="@+id/draw"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/painticon_chat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginLeft="5dp"
+                android:background="#ffecea"
+                android:layout_weight="2.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2">
+
+
+                <ImageButton
+                    android:id="@+id/resort"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/resort" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Restaurants"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#f34939"
+                    android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".8"
+                    >
+                    <ImageButton
+                        android:id="@+id/movies"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/movies" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Movies"
+                        android:textColor="#f34939"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/emojicon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:visibility="gone"
+        >
+
+        <fragment
+            class="io.github.rockerhieu.emojicon.EmojiconsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include layout="@layout/header" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:background="#DBDBDA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"
+            style="@style/top_center_title"
+            android:background="@drawable/greenwitharrow" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            style="@style/store_page_textstyle"
+            android:layout_weight=".7"  />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        style="@style/store_page_textstyle"
+        android:background="@drawable/storetextshadow"
+        android:layout_height="0dp"
+        android:onClick="reload"
+        android:clickable="true"
+        android:layout_weight=".7"  />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="5.1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                style="@style/store_page_center_icons1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="funcardStore"
+                android:background="@drawable/store_menu_background"
+                android:src="@drawable/funcard_store_icon" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                style="@style/store_page_center_icons2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="funcardMap"
+                android:background="@drawable/store_menu_background"
+                android:src="@drawable/funcard_map_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                style="@style/store_page_center_icons3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/store_menu_background"
+                android:onClick="openWebPage"
+                android:src="@drawable/funcard_home_icon" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                style="@style/store_page_center_icons4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="callStore"
+                android:background="@drawable/store_menu_background"
+                android:src="@drawable/funcard_call_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include layout="@layout/footer" />
+    </LinearLayout>
+
+</LinearLayout>

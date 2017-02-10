@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:ignore="SelectableText" >
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:gravity="center"
+        style="@style/ListBackContent"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/mainlist_height"
+        android:tag="back" >
+        <ImageView
+            android:id="@+id/temp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"  />
+        <ImageView
+            android:id="@+id/example_row_b_action_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_delete" />
+
+        <ImageView
+            android:id="@+id/example_row_b_action_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_edit" />
+
+        <ImageView
+            android:id="@+id/example_row_b_action_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_save" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/front"
+        android:layout_height="@dimen/mainlist_height"
+        android:orientation="horizontal"
+        android:gravity="center"
+        style="@style/ListFrontContent"
+        android:padding="5dp"
+        android:tag="front" >
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/example_row_iv_image" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#fff"
+                android:textSize="@dimen/main_list_titleText"
+                android:id="@+id/example_row_tv_title" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#fff"
+                android:textSize="@dimen/main_list_smallText"
+                android:id="@+id/example_row_tv_description" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgrpt" />
+    </LinearLayout>
+
+</FrameLayout>

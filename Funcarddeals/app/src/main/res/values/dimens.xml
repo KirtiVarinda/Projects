@@ -1,0 +1,89 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- Login Screen  -->
+    <dimen name="center_layout_margin">20dp</dimen>
+
+    <dimen name="textView_size">16sp</dimen>
+    <dimen name="editView_margin_right">10dp</dimen>
+    <dimen name="textView_size1">16sp</dimen>
+
+    <dimen name="button_height">38dp</dimen>
+    <dimen name="button_width">75dp</dimen>
+    <dimen name="button_margin_right">18dp</dimen>
+    <dimen name="fb_text_size">13sp</dimen>
+    <dimen name="fb_button_height">40dp</dimen>
+    <dimen name="fb_button_width">170dp</dimen>
+
+
+    <!--  landing page -->
+    <dimen name="landing_button_height">34dp</dimen>
+    <dimen name="landing_button_width">120dp</dimen>
+    <dimen name="landing_button_width_yellow">140dp</dimen>
+    <dimen name="landing_left_margin">45dp</dimen>
+    <dimen name="landing_green_button_text">13sp</dimen>
+    <dimen name="landing_yellow_button_text">10sp</dimen>
+    <dimen name="landing_left_margin_yellowbutton">38dp</dimen>
+
+
+    <!--registration text -->
+    <dimen name="registeration_linearlayout_margintop">20dp</dimen>
+
+
+    <!-- store page -->
+    <dimen name="one_dimension">5dp</dimen>
+    <dimen name="second_dimension">5dp</dimen>
+
+    <!--  map page -->
+    <dimen name="greenimageheight">33dp</dimen>
+
+    <!-- store offer detail page -->
+    <dimen name="store_offer_detail_button_margin_right">10dp</dimen>
+    <dimen name="store_offertextView_size">12sp</dimen>
+    <dimen name="store_offer_detail_button_marginRight">10dp</dimen>
+    <dimen name="store_offer_detail_button_marginleft">10dp</dimen>
+    <dimen name="store_offer_detail_image_margin">15dp</dimen>
+    <dimen name="store_offer_detail_price_textsize">15dp</dimen>
+    <dimen name="store_offer_detail_price_textpadding">3dp</dimen>
+    <dimen name="store_offer_detail_price_text_marginbottom">10dp</dimen>
+
+    <dimen name="instruction_padding">10dp</dimen>
+
+
+    <!-- main page    -->
+    <dimen name="mainpagetextView_size">15sp</dimen>
+    <dimen name="mainpagetextView_paddingleft">10dp</dimen>
+
+
+    <dimen name="list_row_height">54dp</dimen>
+
+    <!-- category page -->
+    <dimen name="cat_text_paddingbottom">12dp</dimen>
+
+
+    <!--  store offers page-->
+    <dimen name="storeoffer_headtext">14sp</dimen>
+
+    <!-- redeem page-->
+    <dimen name="redeem_page_textSize">10dp</dimen>
+    <dimen name="redeem_page_padding">5dp</dimen>
+    <dimen name="redeem_page_titlelayout_height">70dp</dimen>
+    <dimen name="redeem_page_codelayout_height">35dp</dimen>
+
+
+    <!-- add funcard  -->
+    <dimen name="addpage_text_margin">8dp</dimen>
+
+    <!-- user profile page -->
+    <dimen name="userprofile_textsize">22sp</dimen>
+    <dimen name="userprofile_textsize2">18sp</dimen>
+
+    <!-- buy funcard -->
+    <dimen name="layout_margin_top">30dp</dimen>
+    <dimen name="layout_button_padding">8dp</dimen>
+    <dimen name="scrollview_marginleft">20dp</dimen>
+    <dimen name="scrollview_marginright">20dp</dimen>
+</resources>

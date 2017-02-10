@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/overlay"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dailybg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="9"
+                    android:gravity="center_vertical"
+                    android:text="Wake up Daily Jog "
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/main_list_titleText" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/below"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="6dp">
+
+                <ImageView
+                    android:id="@+id/textView41"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="9"
+                    android:text="TextView "
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/detail_smallText" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/reminderlinebg" />
+
+            <ImageView
+                android:id="@+id/textView20"
+                android:layout_width="@dimen/showalarm_button_dimension"
+                android:layout_height="@dimen/showalarm_button_dimension"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/reminderpbg" />
+
+            <ImageView
+                android:id="@+id/textView56"
+                android:layout_width="@dimen/showalarm_button_dimension2"
+                android:layout_height="@dimen/showalarm_button_dimension2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"  />
+
+            <ImageView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/reminderalarm"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/reminderalarm1"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="@dimen/showalarm_button_dimension2"
+                android:layout_height="@dimen/showalarm_button_dimension2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/circle" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/showalarm_button_dimension2"
+                android:layout_height="@dimen/showalarm_button_dimension2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/circle" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="@dimen/showalarm_button_dimension2"
+                android:layout_height="@dimen/showalarm_button_dimension2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/circle" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="@dimen/showalarm_button_dimension2"
+                android:layout_height="@dimen/showalarm_button_dimension2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/circle" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

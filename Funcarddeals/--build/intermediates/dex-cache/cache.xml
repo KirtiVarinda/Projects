@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Avnish\Android_StudioProjects\Funcarddeals\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="21cf6335d56e83d9da948fa8ff25852341dd47a1">
+        <dex dex="C:\Users\Avnish\Android_StudioProjects\Funcarddeals\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_77f553170642839ce17737e7346b387969658d84\classes.dex" />
+    </item>
+
+</items>

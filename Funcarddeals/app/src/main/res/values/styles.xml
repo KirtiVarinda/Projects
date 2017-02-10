@@ -1,0 +1,252 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:screenOrientation">portrait</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- login page,  Registeration page -->
+    <style name="text_style" parent="@style/general_light_text">
+        <item name="android:paddingLeft">@dimen/textView_padding_left</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="text_style2">
+        <item name="android:layout_marginLeft">@dimen/center_layout_margin</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/textView_size1</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:background">@drawable/green_button</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_right</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+    </style>
+
+    <style name="fb_button">
+        <item name="android:layout_height">@dimen/fb_button_height</item>
+        <item name="android:layout_width">@dimen/fb_button_width</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:textSize">@dimen/fb_text_size</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_right</item>
+
+    </style>
+    <style name="fbs_button">
+        <item name="android:layout_height">@dimen/fb_button_height</item>
+        <item name="android:layout_width">@dimen/fb_button_width</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_right</item>
+
+    </style>
+
+    <style name="general_light_text">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/textView_size</item>
+    </style>
+
+    <!-- login page  ends-->
+
+    <!-- landing page -->
+
+    <style name="landing_button_green">
+        <item name="android:background">@drawable/green_button</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/landing_green_button_text</item>
+        <item name="android:layout_height">@dimen/landing_button_height</item>
+        <item name="android:layout_width">@dimen/landing_button_width</item>
+        <item name="android:layout_marginLeft">@dimen/landing_left_margin</item>
+    </style>
+
+
+    <!-- landing page -->
+
+    <!--  Registeration page -->
+    <style name="registration_linearLayout_style">
+        <item name="android:layout_marginTop">@dimen/registeration_linearlayout_margintop</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_right</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_right</item>
+    </style>
+
+    <!-- tutorial page  -->
+    <style name="tutorial_button" parent="landing_button_green">
+        <item name="android:layout_marginLeft">0dp</item>
+
+    </style>
+
+
+    <!-- store page -->
+    <style name="store_page_textstyle">
+        <item name="android:textColor">#3c0000</item>
+        <item name="android:background">#DBDBDA</item>
+        <item name="android:textSize">@dimen/store_offer_detail_price_textsize</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="store_page_center_icons1">
+        <item name="android:layout_marginTop">@dimen/one_dimension</item>
+        <item name="android:layout_marginBottom">@dimen/second_dimension</item>
+        <item name="android:layout_marginLeft">@dimen/one_dimension</item>
+        <item name="android:layout_marginRight">@dimen/second_dimension</item>
+
+    </style>
+
+    <style name="store_page_center_icons2">
+        <item name="android:layout_marginTop">@dimen/one_dimension</item>
+        <item name="android:layout_marginBottom">@dimen/second_dimension</item>
+        <item name="android:layout_marginLeft">@dimen/second_dimension</item>
+        <item name="android:layout_marginRight">@dimen/one_dimension</item>
+
+    </style>
+
+    <style name="store_page_center_icons3">
+        <item name="android:layout_marginBottom">@dimen/one_dimension</item>
+        <item name="android:layout_marginLeft">@dimen/one_dimension</item>
+        <item name="android:layout_marginRight">@dimen/second_dimension</item>
+
+    </style>
+
+    <style name="store_page_center_icons4">
+        <item name="android:layout_marginBottom">@dimen/one_dimension</item>
+        <item name="android:layout_marginLeft">@dimen/second_dimension</item>
+        <item name="android:layout_marginRight">@dimen/one_dimension</item>
+
+    </style>
+
+
+    <style name="store_offer_detail_button" parent="general_light_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/store_offertextView_size</item>
+        <item name="android:layout_marginLeft">@dimen/store_offer_detail_button_marginleft</item>
+        <item name="android:layout_marginRight">@dimen/store_offer_detail_button_marginRight</item>
+    </style>
+
+
+    <style name="store_offer_detail_price">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#008000</item>
+        <item name="android:padding">@dimen/store_offer_detail_price_textpadding</item>
+        <item name="android:textSize">@dimen/store_offer_detail_price_textsize</item>
+        <item name="android:layout_marginBottom">@dimen/store_offer_detail_price_text_marginbottom
+        </item>
+    </style>
+
+
+    <style name="main_page" parent="general_light_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/mainpagetextView_size</item>
+
+    </style>
+
+    <style name="main_page_list_text1">
+        <item name="android:textColor">@color/mainpage_maroonText</item>
+        <item name="android:textSize">@dimen/mainpagetextView_size</item>
+
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="main_page_list_text2">
+        <item name="android:textColor">@color/mainpage_greyText</item>
+        <item name="android:textSize">@dimen/mainpagetextView_size</item>
+        <item name="android:paddingLeft">@dimen/mainpagetextView_paddingleft</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+
+    <style name="store_offer_head_text">
+        <item name="android:textColor">@color/mainpage_maroonText</item>
+        <item name="android:textSize">@dimen/storeoffer_headtext</item>
+        <item name="android:paddingLeft">@dimen/mainpagetextView_paddingleft</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="store_product_detail_textStyle">
+        <item name="android:textColor">#3c0000</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/store_offer_detail_price_textsize</item>
+        <item name="android:background">#DBDBDA</item>
+    </style>
+
+    <style name="store_product_detail_textStyle2">
+        <item name="android:textColor">#008000</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:textSize">@dimen/store_offer_detail_price_textsize</item>
+        <item name="android:background">#DBDBDA</item>
+    </style>
+
+    <style name="redeem_page_textstyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/redeem_page_textSize</item>
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+    <!-- add funcrad   -->
+
+    <style name="add_funcrad_textStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/textView_size</item>
+        <item name="android:textColor">#F7E25A</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/addpage_text_margin</item>
+
+    </style>
+
+
+    <style name="user_profile_text1">
+        <item name="android:textSize">@dimen/userprofile_textsize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#F7E25A</item>
+
+
+    </style>
+
+    <style name="user_profile_text2">
+        <item name="android:textSize">@dimen/userprofile_textsize2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">@dimen/mainpagetextView_paddingleft</item>
+        <item name="android:textColor">#ffffff</item>
+
+
+    </style>
+
+
+    <style name="policies_text">
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/textView_size</item>
+    </style>
+
+
+    <style name="top_center_title" parent="general_light_text">
+
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/mainpagetextView_size</item>
+        <item name="android:paddingBottom">@dimen/mainpagetextView_paddingleft</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="buy_funcrad_buttonstyle">
+        <item name="android:textSize">@dimen/textView_size</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/yellow_button</item>
+    </style>
+
+    <style name="buy_funcrad_buttonstyle2" parent="buy_funcrad_buttonstyle">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">@dimen/layout_button_padding</item>
+    </style>
+</resources>

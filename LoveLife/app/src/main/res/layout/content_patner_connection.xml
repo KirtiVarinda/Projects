@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8000000"
+
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:onClick="close"
+        android:orientation="vertical">
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/popup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="@dimen/arrowWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/partnerDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="#68b3bf"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="3px">
+
+
+                                <ImageView
+                                    android:id="@+id/partnerProfilePage"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/add" />
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/connectdp" />
+                            </FrameLayout>
+
+
+                            <ImageView
+                                android:id="@+id/actionbar_notifcation_textview"
+                                android:layout_width="@dimen/addPartner_PartnerAddLogoWidth"
+                                android:layout_height="@dimen/addPartner_PartnerAddLogoWidth"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginRight="15dp"
+                                android:src="@drawable/check" />
+                        </RelativeLayout>
+
+                    </FrameLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7.5"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/duadlePartner"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="#68b3bf"
+                            android:gravity="left|center_vertical"
+                            android:text="Your Duadle partner"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/addPartner_titleTextSize"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/email"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="9"
+                                android:gravity="left|center_vertical"
+                                android:textColor="#68b3bf"
+                                android:textSize="@dimen/addPartner_TextSize" />
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="6dp"
+                                android:layout_weight="1"
+                                android:onClick="close"
+                                android:src="@drawable/close" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/toolbar_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@drawable/toolbar_dropshadow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/name"
+                        style="@style/textView1"
+                        android:layout_height="match_parent"
+                        android:text="Name:" />
+
+                    <TextView
+                        android:id="@+id/name_value"
+                        style="@style/textView2"
+                        android:layout_height="match_parent"
+                        android:maxLines="1"
+                        android:text="Avnish" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/phone"
+                        style="@style/textView1"
+                        android:layout_height="match_parent"
+                        android:text="Phone:" />
+
+                    <TextView
+                        android:id="@+id/phone_value"
+                        style="@style/textView2"
+                        android:layout_height="match_parent"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/age"
+                        style="@style/textView1"
+                        android:layout_height="match_parent"
+                        android:text="Age:" />
+
+                    <TextView
+                        android:id="@+id/age_value"
+                        style="@style/textView2"
+                        android:layout_height="match_parent"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/location"
+                        style="@style/textView1"
+                        android:layout_height="match_parent"
+                        android:text="Location:" />
+
+                    <TextView
+                        android:id="@+id/location_value"
+                        style="@style/textView2"
+                        android:layout_height="match_parent"
+                        android:maxLines="1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".8"
+                android:background="#1eb7e7ef"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fav"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="His Favourites"
+                    android:textColor="#68b3bf"
+                    android:textSize="@dimen/addPartner_titleTextSize"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5.5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/movies"
+                            style="@style/textView1"
+                            android:layout_height="match_parent"
+                            android:text="Movies:" />
+
+                        <TextView
+                            android:id="@+id/movies_value"
+                            style="@style/textView2"
+                            android:layout_height="match_parent"
+                            android:maxLines="1"
+                            android:text="Avnish" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/weather"
+                            style="@style/textView1"
+                            android:layout_height="match_parent"
+                            android:text="Weather:" />
+
+                        <TextView
+                            android:id="@+id/weather_value"
+                            style="@style/textView2"
+                            android:layout_height="match_parent"
+                            android:maxLines="1"
+                            android:text="9041311070" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/food"
+                            style="@style/textView1"
+                            android:layout_height="match_parent"
+                            android:text="Food:" />
+
+                        <TextView
+                            android:id="@+id/food_value"
+                            style="@style/textView2"
+                            android:layout_height="match_parent"
+                            android:maxLines="1"
+                            android:text="29" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/car"
+                            style="@style/textView1"
+                            android:layout_height="match_parent"
+                            android:text="Cars:" />
+
+                        <TextView
+                            android:id="@+id/car_value"
+                            style="@style/textView2"
+                            android:layout_height="match_parent"
+                            android:maxLines="1"
+                            android:text="Chandigarh, India" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/vacations"
+                            style="@style/textView1"
+                            android:layout_height="match_parent"
+                            android:text="Vacations:" />
+
+                        <TextView
+                            android:id="@+id/vacation_value"
+                            style="@style/textView2"
+                            android:layout_height="match_parent"
+                            android:maxLines="1"
+                            android:text="Chandigarh, India" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/color"
+                            style="@style/textView1"
+                            android:layout_height="match_parent"
+                            android:text="Colors:" />
+
+                        <TextView
+                            android:id="@+id/color_value"
+                            style="@style/textView2"
+                            android:layout_height="match_parent"
+                            android:maxLines="1"
+                            android:text="29" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.7"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/addPartner_buttonPaddingTop"
+                    android:paddingLeft="@dimen/addPartner_buttonPaddingLeft"
+                    android:paddingRight="@dimen/addPartner_buttonPaddingLeft"
+                    android:paddingTop="@dimen/addPartner_buttonPaddingTop">
+
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/allgood" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

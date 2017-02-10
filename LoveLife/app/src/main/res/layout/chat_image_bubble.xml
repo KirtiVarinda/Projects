@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bubble_layout_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/bubble_layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble1">
+
+
+        <ImageView
+            android:id="@+id/message_media"
+            android:layout_width="@dimen/chat_image_width"
+            android:layout_height="@dimen/chat_image_height"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@drawable/love" />
+    </LinearLayout>
+
+</LinearLayout>

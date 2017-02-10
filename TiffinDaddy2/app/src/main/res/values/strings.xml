@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Tiffin Daddy</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_product_page"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- API urls. -->
+    <string name="get_categoories">http://demo.tiffindaddy.com/index.php/api/tiffin_category</string>
+    <string name="get_tiffins">http://demo.tiffindaddy.com/index.php/api/tiffin</string>
+    <string name="login_url">http://demo.tiffindaddy.com/index.php/api/login</string>
+    <string name="get_addons">http://demo.tiffindaddy.com/index.php/api/addons</string>
+    <string name="register_url">http://demo.tiffindaddy.com/index.php/api/signup</string>
+    <string name="get_address">http://demo.tiffindaddy.com/index.php/api/address</string>
+    <string name="add_address">http://demo.tiffindaddy.com/index.php/api/addaddress</string>
+    <string name="lifecheck">http://matricore.com/tiffincheck/json.php?fst=true</string>
+    <string name="getCities">http://demo.tiffindaddy.com/index.php/api/city</string>
+    <string name="coupon">http://demo.tiffindaddy.com/index.php/api/coupon</string>
+    <string name="addOderJsonToServer">http://demo.tiffindaddy.com/index.php/api/orderadd</string>
+
+
+    <string name="title_activity_login"></string>
+    <string name="title_activity_sign_up"></string>
+
+
+    <!-- Registeration page-->
+    <string name="user_name">Type user name</string>
+    <string name="user_email">Type email</string>
+    <string name="user_phone">Type phone</string>
+    <string name="user_pass">Type Password</string>
+    <string name="user_re_pass">Retype Password</string>
+    <string name="title_activity_cart_page"></string>
+    <string name="title_activity_checkout_page">Checkout Page</string>
+    <string name="title_activity_add_adrress">AddAdrress</string>
+    <string name="title_activity_select_city">SelectCity</string>
+    <string name="title_activity_tiffin_daddy_checkout_page">TiffinDaddyCheckoutPage</string>
+
+
+</resources>

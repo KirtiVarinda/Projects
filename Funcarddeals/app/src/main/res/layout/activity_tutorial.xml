@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/background" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:id="@+id/tutorialArea"
+        android:background="@drawable/tutorial1" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight=".1" >
+
+        <Button
+            android:text="@string/Got_it"
+            style="@style/tutorial_button"
+            android:onClick="gotIt"
+            android:id="@+id/button8" />
+
+        <Button
+            android:text="@string/MoreInfo"
+            style="@style/landing_button_green"
+            android:onClick="moreInfo"
+            android:id="@+id/button9" />
+    </LinearLayout>
+</LinearLayout>

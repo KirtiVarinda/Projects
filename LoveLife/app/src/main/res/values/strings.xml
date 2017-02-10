@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">Duadle</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="message">Type your message here</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_next">Next</string>
+    <string name="action_signIn">Sign In</string>
+    <string name="title_activity_login">Duadle</string>
+    <string name="skip">Skip</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email Address</string>
+    <string name="enter_new_pass">Enter New Password</string>
+    <string name="repass">Conform Password</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="no_exist_email">This email address does not exist</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="rePassword_error">Password must be same</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string name="logoutAlert">Do you want to logout Love Life?</string>
+    <string name="sessionExpired">Your session has been expired.</string>
+    <!-- Strings related to Registration -->
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="retypePassword">Retype Password</string>
+    <string name="display_name">Display Name</string>
+    <string name="image">Image</string>
+    <string name="gender">Gender</string>
+    <string name="height">Height(Feet.Inch)</string>
+    <string name="weight">Weight(Kg)</string>
+    <string name="dob">Date of birth</string>
+    <string name="city">City </string>
+    <string name="state">State</string>
+    <string name="zip">zip</string>
+    <string name="country">Country</string>
+
+    <string name="favorites">Favorites</string>
+    <string name="favorite_movie">Favorite Movie</string>
+    <string name="favorite_food">Favorite Food</string>
+    <string name="favorite_weather">Favorite Weather</string>
+
+
+    <string-array name="gender_value">
+        <item><FONT COLOR="#ffffff"><b>Male</b></FONT></item>
+        <item><FONT COLOR="#ffffff"><b>Female</b></FONT></item>
+    </string-array>
+    <!-- Example General settings -->
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_chat">Love Chat</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="server">112.196.23.228</string>
+    <!-- <string name="server">xmpp.jp</string>-->
+    <string name="title_section1">Dashboard</string>
+    <string name="title_section2">Chats</string>
+    <string name="title_section3">Connection</string>
+    <string name="title_activity_register">Sign up</string>
+    <string name="invalid_connectionEmail">Please enter a valid EmailID.</string>
+    <string name="invalid_connectionPhone">Please enter a valid Phone No.</string>
+    <string name="invalid_connectionSms">Please enter some text in Message Field.</string>
+
+
+    <!-- Registration page Strings -->
+
+    <string name="invalid_firstName">Please enter a valid First Name.</string>
+    <string name="invalid_lastName">Please enter a valid Last Name.</string>
+    <string name="invalid_Email">Please enter a valid Email ID.</string>
+    <string name="invalid_mobile">Please enter a valid Mobile.</string>
+    <string name="invalid_password">Please enter a valid Password.</string>
+    <string name="invalid_retypePassword">Password Mismatch</string>
+
+    <!-- profile page Strings-->
+    <string name="invalid_displayName">Please enter a valid display name.</string>
+    <string name="invalid_height">Please enter a valid height.</string>
+    <string name="invalid_dob">Please enter a valid date of birth (dd/mm/yy).</string>
+    <string name="ageConstraint">Age must be greater then 18.</string>
+    <string name="wrong_date">Please select a proper date from Calender.</string>
+    <string name="invalid_weight">Please enter a valid weight.</string>
+
+    <string name="invalid_city">Please enter a valid city.</string>
+    <string name="invalid_state">Please enter a valid state.</string>
+    <string name="invalid_country">Please enter a valid county.</string>
+    <string name="invalid_zip">Please enter a valid zip.</string>
+    <string name="invalid_favMovie">Please enter a valid movie.</string>
+    <string name="invalid_favFood">Please enter a valid food.</string>
+    <string name="invalid_favWeather">Please enter a valid favorite weather.</string>
+
+
+    <!-- server urls-->
+    <string name="serverDomain">http://lovelife.aicoach.net</string>
+    <string name="userRegistration">/appRegister</string>
+    <!--  <string name="userLogin">/appLogin</string>-->
+    <string name="userLogin">/appLoginRegister</string>
+    <string name="userProfileData">/appUserProfile</string>
+
+    <string name="fbLogin">/fbLogin</string>
+    <string name="getRequests">/getRequest</string>
+    <string name="respondToRequest">/requestStatus</string>
+    <string name="sendRequest">/userRequest</string>
+    <string name="user_profile">/userDetail</string>
+    <string name="love_meter">/getPoints</string>
+    <string name="points">/savePoint</string>
+    <string name="user_fav">/favoriteProfile</string>
+
+    <string name="cancelRequest">/cancelRequest</string>
+
+
+    <!-- Restaurant API implementation  -->
+
+    <string name="restaurant_data">http://opentable.herokuapp.com/api/restaurants</string>
+    <string name="restaurant_cities">http://opentable.herokuapp.com/api/cities</string>
+
+    <!-- connection  module-->
+    <string name="connection_email">Partner Email</string>
+    <string name="connection_message">Write message to partner.</string>
+    <string name="title_activity_profile_page">ProfilePage</string>
+    <string name="userProfilePic">/profilePic</string>
+    <string name="title_activity_patner_connection">PatnerConnectionActivity</string>
+
+
+    <!-- map keys -->
+    <string name="debug_key">AIzaSyCyfJ5YSYOv3HYZxCvYY8Mu7E-VEutSaos</string>
+
+
+    <!-- Sharing with friends string-->
+    <string name="share_string">\n Stay connected with your love by using Love Life Application \n\n https://play.google.com/store/apps/details?id=com.remindme&amp; hl=en \n\n</string>
+
+    <!-- facebook api implementation  -->
+    <string name="facebook_app_id">1815582835324110</string>
+
+    <string name="fb_login_protocol_scheme">fb1815582835324110</string>
+
+    <string name="half_pass">1!#5@</string>
+
+
+</resources>

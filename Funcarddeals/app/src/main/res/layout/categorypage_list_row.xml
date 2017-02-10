@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_row_height"
+    android:background="@drawable/mainpage_enable_rowclicked"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+
+    <TextView
+        android:paddingLeft="2dp"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:text="Madison,WI"
+        style="@style/main_page_list_text1"
+        android:id="@+id/textView28" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2.2"
+        android:layout_height="wrap_content"
+        android:text="15 Offers"
+        style="@style/main_page_list_text2"
+        android:id="@+id/textView29" />
+</LinearLayout>

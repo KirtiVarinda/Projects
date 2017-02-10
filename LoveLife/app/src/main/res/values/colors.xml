@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#FFFFFF</color>
+  <color name="female_colorPrimaryDark">#ed5544</color>
+  <color name="female_colorAccent">#ed5544</color>
+  <color name="female_colorAcc">#6b6b22</color>
+  <color name="male_colorPrimaryDark">#45bbcd
+  </color>
+  <color name="male_colorAccent">#45bbcd
+  </color>
+  <color name="black">#969393</color>
+  <color name="CHECK_COLOR">#ffffff</color>
+  <color name="CHECK_COLO">#5e5b12</color>
+
+
+  <color name="primary">#2196F3</color>
+  <color name="accent">#009688</color>
+</resources>

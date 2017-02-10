@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item>
+      <shape android:shape="oval" >
+         <solid android:color="#ffa79d" />
+
+
+      </shape>
+   </item>
+   <item>
+      <shape android:shape="oval" >
+
+      </shape>
+   </item>
+</layer-list>
+
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/drawer_head" />
+    <item
+        android:drawable="@drawable/profilepic"
+        android:left="420dp"
+        android:bottom="230dp"/>
+</layer-list>-->

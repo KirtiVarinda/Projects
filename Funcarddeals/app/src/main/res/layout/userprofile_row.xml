@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_row_height"
+    android:id="@+id/userProfileRowBack"
+    android:background="@drawable/mainpage_enable_rowclicked"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4.5"
+        android:layout_height="wrap_content"
+        android:text="WDS0115193810010"
+        android:gravity="left"
+
+        style="@style/main_page_list_text1"
+        android:padding="5dp"
+        android:id="@+id/user_card" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2.3"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="WIsconcin dells"
+        style="@style/main_page_list_text1"
+        android:id="@+id/user_city"  />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2.5"
+        android:padding="0dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Enable"
+        style="@style/main_page_list_text1"
+        android:id="@+id/user_status" />
+</LinearLayout>

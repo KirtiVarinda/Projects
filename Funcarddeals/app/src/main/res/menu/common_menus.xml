@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="app.funcarddeals.com.MainPage">
+
+    <!--<item android:id="@+id/buy_funcard"-->
+        <!--android:title="@string/buy_funcard_menu"-->
+        <!--/>-->
+    <item android:id="@+id/add_funcrad"
+        android:title="@string/add_funcard_menu"
+        />
+    <item android:id="@+id/user_account"
+        android:title="@string/user_account_menu"
+        />
+    <item android:id="@+id/policy"
+        android:title="@string/policy_menu"
+        />
+
+    <!--  -->
+    <item android:id="@+id/tutorial"
+        android:title="@string/Tutiorial_menu"
+        />
+    <item android:id="@+id/logout"
+        android:title="@string/logout_menu"
+        />
+
+</menu>

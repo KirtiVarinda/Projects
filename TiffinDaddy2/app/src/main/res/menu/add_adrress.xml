@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/city_name"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/location"
+        android:orderInCategory="100"
+        android:title="Cart"
+        android:icon="@drawable/ic_location_on_white_24dp"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/sign_in"
+            android:title="Sign In" />
+        <item
+            android:id="@+id/sign_up"
+            android:title="Sign Up" />
+        <item
+            android:id="@+id/my_account"
+            android:title="My Account" />
+        <item
+            android:id="@+id/my_order"
+            android:title="My Orders" />
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    </group>
+
+    <item android:title="personal">
+        <menu>
+            <item
+                android:id="@+id/about_tiffindaddy"
+                android:title="About TiffinDaddy" />
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>

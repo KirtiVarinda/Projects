@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/menu_background"
+        android:onClick="home"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:background="@drawable/menu_background"
+        android:onClick="favorite"
+        android:src="@drawable/favourites" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/menu_background"
+        android:onClick="reminder"
+        android:src="@drawable/reminder" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/menu_background"
+        android:onClick="exit"
+        android:src="@drawable/add" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".6"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/menu_background"
+        android:onClick="menu"
+        android:src="@drawable/menu1" />
+
+          <!--
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/scaner"
+            android:onClick="scanner"
+            android:background="@drawable/menu_background"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6" />
+         -->
+</LinearLayout>

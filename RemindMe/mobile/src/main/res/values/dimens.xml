@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default -->
+    <dimen name="radius_default">2dp</dimen>
+    <dimen name="padding_default">8dp</dimen>
+    <dimen name="margin_default">5dp</dimen>
+    <dimen name="line_default">1dp</dimen>
+
+    <!-- Products -->
+    <dimen name="height_list">90dp</dimen>
+    <dimen name="size_list_image">38px</dimen>
+    <dimen name="font_size_title">17sp</dimen>
+    <dimen name="font_size_description">15sp</dimen>
+    <dimen name="margin_setting">20dp</dimen>
+    <dimen name="font_size_new_tag">11sp</dimen>
+    <dimen name="padding_new_tag">3dp</dimen>
+    
+
+
+    <!--    hourly reminder page   -->
+
+    <dimen name="center_layoutmargin_left">20dp</dimen>
+    <dimen name="center_layoutmargin_right">26dp</dimen>
+    <dimen name="yesButton_margin">5dp</dimen>
+    <dimen name="textPadding_left">35dp</dimen>
+    <dimen name="textPadding_right">4dp</dimen>
+    <dimen name="hourlypage_textSize">15sp</dimen>
+    <dimen name="semiRound_marginLeft">23dp</dimen>
+    <dimen name="semiRound_height">44dp</dimen>
+    <dimen name="semiRound_paddingTop">8dp</dimen>
+    <dimen name="hourlypage_textSize2">18sp</dimen>
+    <dimen name="hourlypage_textSize3">16sp</dimen>
+    <dimen name="semiRound_marginRight">5dp</dimen>
+
+
+    <!--  ReminderMessage page   -->
+    <dimen name="reminderMessage_textSize">25sp</dimen>
+
+
+
+    <dimen name="main_list_titleText">20sp</dimen>
+    <dimen name="main_list_smallText">10sp</dimen>
+    <dimen name="detail_smallText">15sp</dimen>
+
+
+    <dimen name="main_page_strip">30sp</dimen>
+
+
+
+    <dimen name="mainlist_height">60dp</dimen>
+
+    <!-- catch missed call page -->
+    <dimen name="catch_missedCall_textSize11">20sp</dimen>
+    <dimen name="catch_missedCall_textSize21">17sp</dimen>
+    <dimen name="catch_missedCall_layout_padding">5dp</dimen>
+
+    <dimen name="catch_missedCall_button_layout_height">60dp</dimen>
+    <dimen name="catch_missedCall_linearlayout_height">20dp</dimen>
+
+    <dimen name="showalarm_button_dimension">160dp</dimen>
+    <dimen name="showalarm_button_dimension2">95dp</dimen>
+</resources>

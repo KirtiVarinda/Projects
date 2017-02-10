@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addPartner"
+    android:layout_width="@dimen/actionBarPartnerLogoWidth"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+    android:clickable="false"
+    android:gravity="center">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/partnerContainer"
+        android:layout_alignEnd="@+id/partnerContainer" />
+    <RelativeLayout
+        android:id="@+id/partnerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:clickable="false">
+
+
+            <ImageView
+                android:id="@+id/partnerImage"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:clickable="false"
+                android:src="@drawable/add" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:clickable="false"
+                android:src="@drawable/add_love" />
+
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/actionbar_notifcation_textview1"
+            android:layout_width="@dimen/actionBarPartnerAddLogoWidth"
+            android:layout_height="@dimen/actionBarPartnerAddLogoWidth"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:clickable="false"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/blank_red"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
